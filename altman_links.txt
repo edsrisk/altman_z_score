@@ -1,0 +1,14 @@
+Income Statement
+annual_IS = https://financialmodelingprep.com/api/v3/income-statement/{ticker}?limit=120&apikey={fmp_api_key}
+quarterly_IS = https://financialmodelingprep.com/api/v3/income-statement/(ticker}?period=quarter&limit=400&apikey={fmp_api_key}
+
+Balance Sheet
+annual_BS = https://financialmodelingprep.com/api/v3/balance-sheet-statement/{ticker}?limit=120&apikey={fmp_api_key}
+quarterly_BS = https://financialmodelingprep.com/api/v3/balance-sheet-statement/{ticker}?period=quarter&limit=400&apikey={fmp_api_key}
+
+Cash Flow Statement
+annusl_CF = https://financialmodelingprep.com/api/v3/cash-flow-statement/{ticker}?limit=120&apikey={fmp_api_key}
+quarterly_CF = https://financialmodelingprep.com/api/v3/cash-flow-statement/{ticker}?period=quarter&limit=400&apikey={fmp_api_key}
+
+Historical Prices
+https://financialmodelingprep.com/api/v3/historical-price-full/AAPL?from=2018-03-12&to=2019-03-12&apikey=cd5e8276c2a62e6426eee2199a362f34
